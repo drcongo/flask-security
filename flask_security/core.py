@@ -441,6 +441,7 @@ class Security(object):
         app.extensions['security'] = state
 
         self.state = state
+        self._state = state
 
         return state
 
